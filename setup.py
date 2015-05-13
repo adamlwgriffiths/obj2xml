@@ -7,7 +7,7 @@ except ImportError:
 
 setup(
     name = 'obj2xml',
-    version = '1.0.0',
+    version = '1.0.1',
     description = 'Convenient XML creation using objects',
     license = 'BSD',
     author = 'Adam Griffiths',
