@@ -19,7 +19,7 @@ Examples
 
 Simple document::
 
-from obj2xml import XML_Object, XML_Property, XML_TextProperty
+    from obj2xml import XML_Object, XML_Property, XML_TextProperty
 
 
     class MyExampleXML(XML_Object):

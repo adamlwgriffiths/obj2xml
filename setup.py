@@ -12,7 +12,7 @@ setup(
     license = 'BSD',
     author = 'Adam Griffiths',
     author_email = 'adam.lw.griffiths@gmail.com',
-    url = 'https://github.com/adamlwgriffiths/Pyrr',
+    url = 'https://github.com/adamlwgriffiths/obj2xml',
     install_requires = ['pydict2xml'],
     platforms = ['any'],
     test_suite = 'tests',
