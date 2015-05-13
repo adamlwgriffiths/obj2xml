@@ -50,8 +50,7 @@ class XML_TextProperty(XML_PathProperty):
 
 
 class XML_ListProperty(XML_PathProperty):
-    def __init__(self, path, cls, default=None):
-        self.cls = cls
+    def __init__(self, path, default=None):
         path = self.prefix + path + self.postfix
         super(XML_PathProperty, self).__init__(path, default)
 

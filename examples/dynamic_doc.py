@@ -14,7 +14,7 @@ class MyExampleXML(XML_Object):
     a_text_value = XML_Property(['root', 'child', '_text'], 'Some Default Text')
     another_text_value = XML_TextProperty(['root', 'child'], 'This one automatically inserts the _text node for us')
 
-    children = XML_ListProperty(['root', 'children', 'child'], ChildNode)
+    children = XML_ListProperty(['root', 'children', 'child'])
 
     def __init__(self, **kwargs):
         super(MyExampleXML, self).__init__(**kwargs)
