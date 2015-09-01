@@ -11,7 +11,6 @@ setup(
     description = 'Convenient XML creation using objects',
     license = 'BSD',
     author = 'Adam Griffiths',
-    author_email = 'adam.lw.griffiths@gmail.com',
     url = 'https://github.com/adamlwgriffiths/obj2xml',
     install_requires = ['pydict2xml'],
     platforms = ['any'],
